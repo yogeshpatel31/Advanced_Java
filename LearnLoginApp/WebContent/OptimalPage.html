@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+
+<body>
+
+	<center>
+		<p>
+		<h1>All in One Page</h1>
+		</p>
+		<img src="images/ldce.jpg">
+
+		 
+		<form action="optimalController" method="get">
+			<input type="hidden" name="methodName" value="Get" /> 
+			<input type="submit" name="submit" value="Get Method" />
+		</form>
+
+		<br/>
+		<form action="optimalController" method="post">
+			<input type="hidden" name="methodName" value="Post" /> 
+			<input type="submit" name="submit" value="Post Method" />
+		</form>
+
+		<br/>
+
+		<form action="optimalController"  method="put">
+			<input type="hidden" name="methodName" value="Put" /> <input
+				type="submit" name="update" value="Update Method" />
+		</form>
+
+		<br />
+		<form action="optimalController" method="delete">
+			<input type="hidden" name="methodName" value="Delete" /> <input
+				type="submit" name="submit" value="Delete Method" />
+		</form>
+	</center>
+</body>
+</html>
